@@ -1,0 +1,401 @@
+*
+{
+    font-family: 'Cairo', sans-serif;
+}
+
+body
+{
+}
+
+.container
+{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+header
+{
+    height: 700px;;
+    background-image: url(../img/bg-masthead.jpg);
+    background-size: cover;
+}
+
+header .container .free
+{
+    text-align: center;
+    padding-top: 300px;
+}
+
+header .container .free h1
+{
+    margin: 0;
+    font-size: 60px;
+    text-transform: capitalize;
+}
+
+header .container .free p
+{
+    font-style: italic;
+    font-weight: bold;
+}
+
+header .container .free button
+{
+    background: #1D809F;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 15px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 40px;
+    outline: none;
+}
+
+main
+{
+    background: #F8F9FA;
+}
+
+main .container .style
+{
+    text-align: center;
+    padding-top: 90px;
+}
+
+main .container .style p:first-of-type
+{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+main .container .style p:last-of-type
+{
+    font-size: 23px;
+    color: #777;
+}
+
+main .container .style p:last-of-type span
+{
+    color: #365899;
+}
+
+main .container .style button
+{
+    background: #343A40;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 15px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 45px;
+    margin-bottom: 120px;
+    outline: none;
+}
+
+main .services
+{
+    background: #1D809F;
+}
+
+main .services .container .offer h3
+{
+    margin: 0;
+    padding-top: 60px;
+    font-size: 16px;
+    color: #EFBA20;
+    text-align: center;
+}
+
+main .services .container .offer p
+{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    color: #FFF;
+    font-weight: bold;
+    text-align: center;
+}
+
+main .services .container .float
+{
+    width: 100%;
+    overflow: hidden;
+}
+
+main .services .container .float div
+{
+    float: left;
+    width: 25%;
+    position: relative;
+    left: 50px;
+}
+
+main .services .container .float div .icon
+{
+    background: #fff;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+main .services .container .float div .icon i
+{
+    color: #365899;
+    background: none;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+main .services .container .float .text
+{
+    position: relative;
+    left: 5px; 
+    text-align: center;
+}
+
+main .services .container .float .text h4
+{
+    margin-bottom: 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+main .services .container .float .text p
+{
+    margin-top: 10px;
+    color: #ece5e5;
+    margin-bottom: 100px;
+}
+
+.welcome
+{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/bg-callout.jpg);
+    background-size: cover;
+}
+
+.welcome .container
+{
+    text-align: center;
+}
+
+.welcome .container h2
+{
+    margin: 0;
+    padding-top: 350px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.welcome .container h2 span
+{
+    font-style: italic;
+}
+
+.welcome .container button
+{
+    background: #1D809F;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 15px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 40px;
+    outline: none;
+}
+
+.portfolio
+{
+    background: #fff;
+    margin: 0;
+    padding-top: 60px;
+    font-size: 16px;
+}
+
+main .portfolio .container h3
+{
+    color: #EFBA20;
+    text-align: center;
+}
+
+
+main .portfolio .container p
+{
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+
+main .portfolio .img .container .box
+{
+    overflow: hidden;
+    margin-bottom: 130px;
+}
+
+main .portfolio .img .container .box > div
+{
+    float: left;
+    width: 50%;
+}
+
+.box1
+{
+    background-image: url(../img/portfolio-1.jpg);
+    background-size: cover;
+    height: 467px;
+}
+
+.box2
+{
+    background-image: url(../img/portfolio-2.jpg);
+    background-size: cover;
+    height: 467px;
+}
+
+.box3
+{
+    background-image: url(../img/portfolio-3.jpg);
+    background-size: cover;
+    height: 467px;
+}
+
+.box4
+{
+    background-image: url(../img/portfolio-4.jpg);
+    background-size: cover;
+    height: 467px;
+}
+
+main .portfolio .img .container .box .box1 h3
+{
+    color: #fff;
+    margin-top: 250px;
+}
+
+main .portfolio .img .container .box .box1 p
+{
+    font-size: 25px;
+    color: #ece5e5;
+    font-weight: normal;
+    padding: 0 50px;
+}
+
+main .portfolio .img .container .box .box2 h3
+{
+    color: #fff;
+    margin-top: 250px;
+}
+
+main .portfolio .img .container .box .box2 p
+{
+    font-size: 25px;
+    color: #ece5e5;
+    font-weight: normal;
+    padding: 0 50px;
+}
+
+main .portfolio .img .container .box .box3 h3
+{
+    color: #fff;
+    margin-top: 250px;
+}
+
+main .portfolio .img .container .box .box3 p
+{
+    font-size: 25px;
+    color: #ece5e5;
+    font-weight: normal;
+    padding: 0 50px;
+}
+
+main .portfolio .img .container .box .box4 h3
+{
+    color: #fff;
+    margin-top: 250px;
+}
+
+main .portfolio .img .container .box .box4 p
+{
+    font-size: 25px;
+    color: #ece5e5;
+    font-weight: normal;
+    padding: 0 50px;
+}
+
+main .click
+{
+    background: #1D809F;
+    text-align: center;
+}
+
+main .click p
+{
+    margin: 0;
+    padding-top: 135px;
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+main .click button
+{
+    background: #343A40;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin: 45px 0 120px 10px;
+    outline: none;
+}
+
+footer
+{
+    background: #fff;
+    text-align: center;
+}
+
+footer .container
+{
+    overflow: hidden;
+}
+
+footer .container .left .icon1
+{
+    background: #1D809F;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 60px 0 30px 20px;
+}
+
+footer .container .left > div
+{
+    display: inline-block;
+}
+
+footer .container .left .icon1 i
+{
+    color: #FFF;
+    background: none;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+footer .container span
+{
+    display: block;
+    color: #6d6565;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
